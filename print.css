@@ -1,0 +1,31 @@
+/* Print specific stylesheet */
+
+.no-print, .no-print-inline {
+  display: none !important;
+}
+
+.print {
+  display: block !important;
+}
+
+.print-inline {
+  display: inline !important;
+}
+
+.mat-card:not([class*="mat-elevation-z"]) {
+  box-shadow: none !important;
+}
+
+.mat-card {
+  border-radius: 0 !important;
+}
+
+.element .mat-card-title {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  color: #666 !important;
+}
+
+.mat-card-header-text {
+  margin: 0 auto !important;
+}
